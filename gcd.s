@@ -4,8 +4,8 @@
      EXPORT __main
 	 ENTRY 
 __main  FUNCTION		 
-    MOV r2,#1;
-	MOV r7,#1;
+    MOV r2,#2;
+	MOV r7,#4;
 loop	CMP r2,r7;
 	SUBGT r2,r2,r7;
 	SUBLT r7,r7,r2;
